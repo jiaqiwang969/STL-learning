@@ -1,14 +1,11 @@
 cmake_minimum_required(VERSION 3.2)
-project(divider_tests)
 
-add_subdirectory(lib/googletest)
+include_directories(${PROJECT_SOURCE_DIR}/include)
 
-include_directories(${DIVISION_HEADERS_DIR})
-include_directories(lib/googletest/googletest/include)
+set(APP_SRC test.cpp)
 
-set(SOURCE_FILES main.cpp src/divider_tests.cpp)
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 
-add_executable(divider_tests ${SOURCE_FILES})
-target_link_libraries(divider_tests division gtest)
-install(TARGETS divider_tests DESTINATION bin)
+add_executable(stltest ${APP_SRC})
 
+install(TARGETS stltest DESTINATION bin)

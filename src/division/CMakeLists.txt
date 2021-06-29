@@ -1,3 +1,5 @@
+# 这里的cmakelists生产静态库
+
 cmake_minimum_required(VERSION 3.2)
 project(division C CXX)
 

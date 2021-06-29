@@ -1,4 +1,7 @@
-#include <division.h>
+// 主控文件
+
+// 这里需要cmake包含include_directories(${DIVISION_HEADERS_DIR})
+#include <division.h> 
 #include <iostream>
 
 using namespace std;
@@ -7,7 +10,7 @@ static const char *const HEADER = "\nDivider © 2018 Monkey Claps Inc.\n\n";
 static const char *const USAGE = "Usage:\n\tdivider <numerator> <denominator>\n\nDescription:\n\tComputes the result of a fractional division,\n\tand reports both the result and the remainder.\n";
 
 int main(int argc, const char *argv[]) {
-  Fraction f;
+  Fraction f; // 从libdivision.a调用
 
   cout << HEADER;
 
