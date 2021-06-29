@@ -10,7 +10,7 @@
 
 
 # Ref
-- stl-learning: https://github.com/jiaqiwang969/STL-learning.git
+- stl-learning: http://deal-ii.com/STL-learning/
 
 - cmake 架构 参考: https://github.com/kigster/cmake-project-template.git
 
