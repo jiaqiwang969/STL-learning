@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/workspaces/STL-learning/src/division/division.cpp
+division.h
+/workspaces/STL-learning/src/division/division.h
+
+/workspaces/STL-learning/src/division/division.h
+iostream
+-
+stdexcept
+-
+

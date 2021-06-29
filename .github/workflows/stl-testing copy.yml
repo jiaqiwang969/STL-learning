@@ -2,9 +2,9 @@ name: GitHub CI
 
 on:
   push:
-    branches: [  stl-testing ]
+    branches: [  main ]
   pull_request:
-    branches: [  stl-testing ]
+    branches: [  main ]
 
 jobs:
   debug:
