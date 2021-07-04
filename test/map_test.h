@@ -1,5 +1,5 @@
-﻿#ifndef MYTINYSTL_MAP_TEST_H_
-#define MYTINYSTL_MAP_TEST_H_
+﻿#ifndef DEALII_MAP_TEST_H_
+#define DEALII_MAP_TEST_H_
 
 // map test : 测试 map, multimap 的接口与它们 insert 的性能
 
@@ -198,5 +198,5 @@ void multimap_test()
 } // namespace map_test
 } // namespace test
 } // namespace mystl
-#endif // !MYTINYSTL_MAP_TEST_H_
+#endif // !DEALII_MAP_TEST_H_
 

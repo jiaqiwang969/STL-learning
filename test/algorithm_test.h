@@ -1,5 +1,5 @@
-﻿#ifndef MYTINYSTL_ALGORITHM_TEST_H_
-#define MYTINYSTL_ALGORITHM_TEST_H_
+﻿#ifndef DEALII_ALGORITHM_TEST_H_
+#define DEALII_ALGORITHM_TEST_H_
 
 // 算法测试: 包含了 mystl 的 81 个算法测试
 
@@ -1178,5 +1178,5 @@ TEST(upper_bound_test)
 
 } // namespace test
 } // namespace mystl
-#endif // !MYTINYSTL_ALGORITHM_TEST_H_
+#endif // !DEALII_ALGORITHM_TEST_H_
 

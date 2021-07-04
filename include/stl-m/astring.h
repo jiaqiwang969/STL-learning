@@ -1,5 +1,5 @@
-﻿#ifndef MYTINYSTL_ASTRING_H_
-#define MYTINYSTL_ASTRING_H_
+﻿#ifndef DEALII_ASTRING_H_
+#define DEALII_ASTRING_H_
 
 // 定义了 string, wstring, u16string, u32string 类型
 
@@ -14,4 +14,4 @@ namespace mystl
     using u32string = mystl::basic_string<char32_t>;
 
 }
-#endif // !MYTINYSTL_ASTRING_H_
+#endif // !DEALII_ASTRING_H_

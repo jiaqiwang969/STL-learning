@@ -1,5 +1,5 @@
-﻿#ifndef MYTINYSTL_DEQUE_TEST_H_
-#define MYTINYSTL_DEQUE_TEST_H_
+﻿#ifndef DEALII_DEQUE_TEST_H_
+#define DEALII_DEQUE_TEST_H_
 
 // deque test : 测试 deque 的接口和 push_front/push_back 的性能
 
@@ -98,5 +98,5 @@ void deque_test()
 } // namespace deque_test
 } // namespace test
 } // namespace mystl
-#endif // !MYTINYSTL_DEQUE_TEST_H_
+#endif // !DEALII_DEQUE_TEST_H_
 

@@ -1,5 +1,5 @@
-﻿#ifndef MYTINYSTL_BASIC_STRING_H_
-#define MYTINYSTL_BASIC_STRING_H_
+﻿#ifndef DEALII_BASIC_STRING_H_
+#define DEALII_BASIC_STRING_H_
 
 // 这个头文件包含一个模板类 basic_string
 // 用于表示字符串类型
@@ -2138,4 +2138,4 @@ namespace mystl
   };
 
 } // namespace mystl
-#endif // !MYTINYSTL_BASIC_STRING_H_
+#endif // !DEALII_BASIC_STRING_H_

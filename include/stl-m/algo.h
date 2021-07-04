@@ -1,5 +1,5 @@
-﻿#ifndef MYTINYSTL_ALGO_H_
-#define MYTINYSTL_ALGO_H_
+﻿#ifndef DEALII_ALGO_H_
+#define DEALII_ALGO_H_
 
 #ifdef _MSC_VER
 #pragma warning(push)
@@ -2747,4 +2747,4 @@ namespace mystl
 #pragma warning(pop)
 #endif
 
-#endif // !MYTINYSTL_ALGO_H_
+#endif // !DEALII_ALGO_H_

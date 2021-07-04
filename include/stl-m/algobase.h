@@ -1,5 +1,5 @@
-﻿#ifndef MYTINYSTL_ALGOBASE_H_
-#define MYTINYSTL_ALGOBASE_H_
+﻿#ifndef DEALII_ALGOBASE_H_
+#define DEALII_ALGOBASE_H_
 
 // 这个头文件包含了 mystl 的基本算法
 
@@ -516,4 +516,4 @@ namespace mystl
   }
 
 } // namespace mystl
-#endif // !MYTINYSTL_ALGOBASE_H_
+#endif // !DEALII_ALGOBASE_H_

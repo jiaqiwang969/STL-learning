@@ -1,5 +1,5 @@
-﻿#ifndef MYTINYSTL_STRING_TEST_H_
-#define MYTINYSTL_STRING_TEST_H_
+﻿#ifndef DEALII_STRING_TEST_H_
+#define DEALII_STRING_TEST_H_
 
 // string test : 测试 string 的接口和 insert 的性能
 
@@ -204,5 +204,5 @@ void string_test()
 } // namespace string_test
 } // namespace test
 } // namespace mystl
-#endif // !MYTINYSTL_STRING_TEST_H_
+#endif // !DEALII_STRING_TEST_H_
 

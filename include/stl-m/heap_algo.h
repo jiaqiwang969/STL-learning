@@ -1,5 +1,5 @@
-﻿#ifndef MYTINYSTL_HEAP_ALGO_H_
-#define MYTINYSTL_HEAP_ALGO_H_
+﻿#ifndef DEALII_HEAP_ALGO_H_
+#define DEALII_HEAP_ALGO_H_
 
 // 这个头文件包含 heap 的四个算法 : push_heap, pop_heap, sort_heap, make_heap
 
@@ -225,4 +225,4 @@ namespace mystl
   }
 
 } // namespace mystl
-#endif // !MYTINYSTL_HEAP_ALGO_H_
+#endif // !DEALII_HEAP_ALGO_H_
